@@ -1,0 +1,20 @@
+.schoolCard{
+    margin-bottom: 20px;
+}
+
+.school {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graduationDate {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: $text-font;
+    span{
+        font-family: $text-font;
+        text-transform: uppercase;
+        color: $primary-color;
+    }
+}

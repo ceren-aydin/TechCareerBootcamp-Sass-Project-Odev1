@@ -1,0 +1,58 @@
+p {
+    font-size: 20px;
+    color: $text-color;
+    font-family: $text-font;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: $title-color;
+    font-family: $text-font;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: $title-color;
+    font-family: $text-font;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: $text-color;
+    font-family: $text-font;
+    padding: 5px 0 20px 0;
+}
+
+.content {
+    line-height: 1.5;
+    width: 75%;
+    float: right;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    min-height: 100vh;
+}
+
+.line {
+    max-width: 90vh;
+    height: 2px;
+    background-color: $primary-color;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+    }
+
+    .line {
+        max-width: 40vh;
+    }
+
+}

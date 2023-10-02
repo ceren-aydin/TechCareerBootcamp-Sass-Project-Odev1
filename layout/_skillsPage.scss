@@ -1,0 +1,23 @@
+.skillIcons{
+    display: inline-flex;
+    .skillIcon{
+        width: 40px;
+        border-radius: 50px;
+        margin: 0px 30px 10px 0px;
+    }
+}
+
+.skillList{
+    list-style-type: none;
+    padding-left: 0;
+    li{
+        display: flex;
+        position: relative;
+        color: $text-color;
+    }
+}
+
+.checkIcon{
+    width: 25px;
+    padding-right: 5px;
+}

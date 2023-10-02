@@ -1,0 +1,33 @@
+.awardList {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+        font-size: 18px;
+        display: flex;
+        position: relative;
+        color: $text-color;
+    }
+}
+
+.medalIcon {
+    width: 30px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .awardList {
+        li {
+            font-size: 15px;
+        }
+    }
+
+    .medalIcon {
+        height: 10%;
+    }
+}
